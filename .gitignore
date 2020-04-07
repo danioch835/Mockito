@@ -20,7 +20,6 @@ SimpleMockito/.idea/gradle.xml
 SimpleMockito/.idea/misc.xml
 SimpleMockito/.idea/uiDesigner.xml
 SimpleMockito/.idea/vcs.xml
-SimpleMockito/build.gradle
 SimpleMockito/build/classes/java/main/app/Application.class
 SimpleMockito/build/classes/java/main/app/SimpleAppService.class
 SimpleMockito/build/classes/java/main/app/SimpleController.class
