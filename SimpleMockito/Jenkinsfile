@@ -5,7 +5,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd SimpleMockito'
-                sh 'gradlew test'
+                sh './gradlew test'
                 junit '**/build/**/*.xml'
             }
         }
