@@ -35,3 +35,5 @@ SimpleMockito/build/test-results/test/binary/output.bin
 SimpleMockito/build/test-results/test/binary/output.bin.idx
 SimpleMockito/build/test-results/test/binary/results.bin
 SimpleMockito/build/test-results/test/TEST-app.AppServiceTest.xml
+SimpleMockito/.project
+SimpleMockito/.vscode/settings.json
