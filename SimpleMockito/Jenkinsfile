@@ -4,9 +4,11 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'cd SimpleMockito'
-                sh './gradlew test'
-                junit '**/build/**/*.xml'
+                dir("${env.WORKSPACE}") {
+                    sh 'cd SimpleMockito'
+                    sh './gradlew test'
+                    junit '**/build/**/*.xml'
+                }
             }
         }
     }
